@@ -1,0 +1,5 @@
+Implementaciones de seguridad:
+Cambio del puerto por defecto de SSH al 2223
+Se ha generado un par de claves con ssh-keygen y se han ubicado en la ruta del servidor /root/ssh/id_rsa
+Se ha configurado passphrase P**&J**n*
+Se ha configurado Fail2ban 
