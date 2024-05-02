@@ -3,3 +3,19 @@ Cambio del puerto por defecto de SSH al 2223
 Se ha generado un par de claves con ssh-keygen y se han ubicado en la ruta del servidor /root/ssh/id_rsa
 Se ha configurado passphrase P**&J**n*
 Se ha configurado Fail2ban 
+Actualizo el sistema operativo
+Cambio el puerto por defecto de SSH al 54777
+Añado el puerto 54777 al firewall UFW para que permita la conexión TCP.
+Deshabilto el acceso root por SSH.
+Instalo fail2ban y creo un arrhivo de configuración local en /etc/fail2ban/jail.local
+Coloco algunos valores en el archivo de configuración de fail2ban en la sección [DEFAULT] pero sin activar.
+Activo fail2ban para SSH con los siguientes parámetros: 
+[sshd]
+enabled = true
+port = 54777 
+filter = sshd
+maxretry = 3
+findtime = 5m
+bantime  = 30m
+Sí un intento de conexión SSH falla tres veces en cinco minutos, el período de prohibición de las IP será de 30 minutos.
+Reinicio el servicio y compruebo que el servicio funciona correctamete sin errores.
