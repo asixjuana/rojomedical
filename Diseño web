@@ -1,3 +1,4 @@
 Implementar favicon en index.html e inicio.html ***Implementado***
 Implementar en el menu lateral una opción llamada "inicio" para volver a https://rojomedical.com/inicio.html ***Implementado***
 Implementar para que salga en la esquina derecha el usuario con el que se está logueado y el tipo de usuario (por ejemplo administrador, técnico...)
+Implementar aviso de cookies del sitio web y página de política de cookies ***Implementado***
