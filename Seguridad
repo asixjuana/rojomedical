@@ -19,3 +19,4 @@ findtime = 5m
 bantime  = 30m
 Sí un intento de conexión SSH falla tres veces en cinco minutos, el período de prohibición de las IP será de 30 minutos.
 Reinicio el servicio y compruebo que el servicio funciona correctamete sin errores.
+Implementado duplicati sobre Docker para realizar backup diario de la web en Google drive. 
