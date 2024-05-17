@@ -2,8 +2,8 @@ Implementar favicon en index.html e inicio.html ***Implementado***
 Implementar en el menu lateral una opción llamada "inicio" para volver a https://rojomedical.com/inicio.html ***Implementado***
 Implementar para que salga en la esquina derecha el usuario con el que se está logueado y el tipo de usuario (por ejemplo administrador, técnico...)
 Implementar aviso de cookies del sitio web y página de política de cookies ***Implementado***
-Implementar página otros.html para descarga de manuales de producto.
-Implementar header (menú fijo y responsive) ***En curso***, de momento implementado en inicio.html, clientes.php y documentación.html
+Implementar página documentos.html para descarga de manuales de producto. ***Implementado pero no descarga los archivos***
+Implementar header (menú fijo y responsive) ***Implementado*** (revisar si falta alguna página)
 También he limpiado el CSS de inicio, y clientes.php, ahora todo apunta al archivo inicio_style.css
 Eliminado menú lateral anterior por ser redundante, con el nuevo al hacer la pantalla más pequeña o estar en un móvil se vuelve pequeño.
 
